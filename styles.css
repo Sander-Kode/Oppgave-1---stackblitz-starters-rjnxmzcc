@@ -6,12 +6,23 @@ header {
   height: 300px;
   color: white;
   display: flex;
+  flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  gap: 20px;
+}
+
 main {
-  background-color: grey;
+  background-color: ivory;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
