@@ -21,8 +21,8 @@ header ul {
   gap: 20px;
 }
 
-main {
-  .Litt-informasjon-om-meg-selv 
+main, .Litt-informasjon-om-meg-selv  {
+  
    display: flex; 
    align-items: center;
    justify-content: space-between;
@@ -36,7 +36,7 @@ main {
     margin-right: 40px;
   }
 
-  .picture img {
+  .picture {
     width: 300px;
     height: auto;
     border-radius: 12px;
