@@ -43,11 +43,3 @@ main {
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
-
-  background-color: ivory;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('bilder/Karikatur\,\ meg\ kodehelt.png');
-  height: 300px;
-}
