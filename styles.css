@@ -22,8 +22,32 @@ header ul {
 }
 
 main {
+  .Litt-informasjon-om-meg-selv 
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px;
+   max-width: 1000px;
+   margin: 0 auto;
+  }
+
+  .text {
+    flex: 1;
+    margin-right: 40px;
+  }
+
+  .picture img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
   background-color: ivory;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url('bilder/Karikatur\,\ meg\ kodehelt.png');
+  height: 300px;
 }
