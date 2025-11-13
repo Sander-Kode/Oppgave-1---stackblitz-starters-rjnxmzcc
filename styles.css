@@ -12,6 +12,13 @@ header {
   justify-content: center;
   text-align: center;
 }
+
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+
+}
 header ul {
   display: flex;
   justify-content: center;
