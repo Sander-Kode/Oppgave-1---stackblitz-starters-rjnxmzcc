@@ -7,10 +7,10 @@ header {
   color: white;
   display: flex;
   flex-direction: column;
-  -ms-flex-align: center;
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
 
 nav {
@@ -18,6 +18,37 @@ nav {
   align-items: baseline;
   justify-content: baseline;
 
+}
+
+.toppTekst {
+  display: flex;
+  font-size: 15px;
+  font-weight: none;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  align-items: center;
+  
+
+
+}
+
+.toppTekstBunnLinje {
+  display: flex;
+  gap: 350px;
+  margin: 0px;
+  align-items: center
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom:0;
+}
+
+.aTekst {
+  color: gold;
+  font-size: 20px;
+  text-decoration: none;
 }
 header ul {
   display: flex;
@@ -28,7 +59,26 @@ header ul {
   gap: 20px;
 }
 
-main, .Litt-informasjon-om-meg-selv  {
+section{
+  height: 100vh;
+}
+
+.hero{
+  background-image: url(https://unsplash.com/photos/person-in-dark-cloak-stands-in-glowing-orange-sandstone-canyon-M9sMy9LTHMM);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: cover;
+  background-color: wheat;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Litt-informasjon-om-meg-selv {
   height: 1000px;
   background-color: wheat;
    display: flex; 
