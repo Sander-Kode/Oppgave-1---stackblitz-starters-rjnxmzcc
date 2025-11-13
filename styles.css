@@ -11,6 +11,7 @@ header {
   justify-content: center;
   text-align: center;
   position: relative;
+
 }
 
 nav {
@@ -30,8 +31,6 @@ nav {
   gap: 100px;
   align-items: center;
   
-
-
 }
 
 .toppTekstBunnLinje {
@@ -63,19 +62,19 @@ section{
   height: 100vh;
 }
 
-.hero{
+.hero {
   background-image: url(https://unsplash.com/photos/person-in-dark-cloak-stands-in-glowing-orange-sandstone-canyon-M9sMy9LTHMM);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: cover;
-  background-color: wheat;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }
 
 .Litt-informasjon-om-meg-selv {
